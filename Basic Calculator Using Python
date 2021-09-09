@@ -1,0 +1,33 @@
+while(True):
+    print('''
+        1. Addition
+        2. Subtraction
+        3. Multiplication
+        4. Division
+        0. exit the program
+    ''')
+    enter = int(input("enter option:"))
+    if enter == 0:
+        break
+
+    dataOne = float(input("enter dataOne:"))
+    dataTwo = float(input("enter dataTwo:"))
+    dataThree = float(input("enter dataThree:"))
+
+    if enter == 1:
+        print(f"your ans is :{(dataOne + dataTwo) + dataThree}")
+
+    elif enter == 2:
+        print(f"your ans is :{(dataOne - dataTwo) - dataThree}")
+
+    elif enter == 3:
+        print(f"your ans is :{(dataOne * dataTwo) * dataThree}")
+
+    elif enter == 4:
+        print(f"your ans is :{(dataOne / dataTwo) / dataThree}")
+
+    else:
+        print("plz enter valid option")
+
+
+
